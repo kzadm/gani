@@ -1,0 +1,116 @@
+@media screen and (max-width: 768px) {
+	.header-description { font-size: 2rem; }
+	.header-description-block { padding: 0; }
+	/*.tour-block-search:before{ width: 30%; }*/
+	.popular { flex-direction: column; }
+	.about-preim { flex-direction: column; }
+	.jungle-icon img { width: 25px; height: 25px; }
+	.kupatsya-icon img { width: 25px; height: 25px; }
+	.smile-icon img { width: 25px; height: 25px; }
+	.babies-icon img { width: 25px; height: 25px; }
+	.fish-icon img { width: 25px; height: 25px; }
+	.sport-icon img { width: 25px; height: 25px; }
+	.shrine-icon img { width: 25px; height: 25px; }
+	.sanatoriy-icon img { width: 25px; height: 25px; }
+	.photo-icon img { width: 25px; height: 25px; }
+
+	.jungle-icon a,
+	.kupatsya-icon a,
+	.smile-icon a,
+	.babies-icon a,
+	.fish-icon a,
+	.sport-icon a,
+	.photo-icon a,
+	.shrine-icon a,
+	.sanatoriy-icon a{
+		color: #fff;
+		font-weight: 600; 
+		text-decoration: none; 
+		border-bottom: 1px solid #fff; 
+		font-size: 10px;
+	}
+
+	.parallax-header-description {
+		font-size: 1.2rem;
+		margin-top:0px;
+	}
+
+	.section-header, .section-header-main {
+		min-height: 250px;
+	}
+
+	.bg-vopros { padding: 15px; }
+	.input-vopros input + input { margin-left: 0px;}
+	.input-vopros { flex-direction: column; }
+	.foot-navigation ul {
+		flex-direction: column
+	}
+
+	.registr-description { margin-top: 60px; }
+
+	/* NAV TABS PROFILE */
+	.cabinet-nav li .nav-link span {
+		display: none;
+	}
+	.cabinet-nav li .nav-link img {
+		padding-right: 0;
+	}
+	.tab-content {
+		padding: 5px;
+	}
+	/* end */
+
+	.parallax-header-text h2 { font-size: 32px; }
+	.nav-link { padding: .5rem;}
+	.parallax-header-text { margin-top: 60px; }
+
+	.alltours_price-list {
+		padding: 10px;
+		margin-left:0px;
+	}
+
+	.alltours_description { padding: 10px;}
+
+}
+
+@media (min-width: 320px) and (max-width: 993px) {
+	/*menu*/
+	body { margin-top: 36px; }
+	header {padding: 0;}
+	.navbar {
+		position: fixed;
+	    top: 0;
+	    left: 0;
+	    width: 100%;	   
+	    background: #2e2e2e;
+	    z-index: 9999999;
+	}
+
+	#top_line {
+		margin-top: 55px;
+	}
+
+	.nav-item { text-align: left; }
+	.navbar-dark .navbar-nav .nav-link { padding-left: 15px; }
+	.navbar::before {
+		content: '';
+    	background: url(../common/img/header/logo.png) no-repeat;
+    	background-size: contain;
+    	width: 50%;
+    	height: 40px;    	
+	}
+	.d-none { display: none !important }
+	.mobile-registration { display: inherit !important; }
+	.profile-menu {
+	    width: 100%;
+    	list-style: none;
+    	padding: 0;
+    	margin: 0;
+    	display: flex !important;
+    	justify-content: flex-start !important;
+    	align-items: left !important;
+	}
+	.navbar-nav {
+		margin-top: 15px;
+	}
+}
